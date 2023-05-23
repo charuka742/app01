@@ -1,10 +1,24 @@
 import React from 'react';
+import Navbar from './Components/Navbar';
+import { Hero } from './Components/Hero';
+import About from './Components/About';
+import Support from './Components/Support';
+import AllnOne from './Components/AllnOne';
+import Pricing from './Components/Pricing';
+import Footer from './Components/Footer';
+
 
 const App = () => {
   return (
-    <div className='text-2xl uppercase'>
-      this time i am trying to do it better
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Support />
+      <AllnOne />
+      <Pricing /> 
+      <Footer />
+    </>
   );
 };
 
